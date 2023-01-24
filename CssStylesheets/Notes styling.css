@@ -1,0 +1,47 @@
+﻿body {
+    display: grid;            /*display page as grid*/
+    margin: 20px;
+    line-height: 60px;
+    font-size: 2em;
+    color: black;
+    font-family: Calibri, serif;
+    background-color: white;
+}
+h2{
+    font-size:3em;                 /*style headers*/
+    color: darkred;
+}
+h1{
+    color: indigo;
+}
+u{
+    color: Highlight;    /*color underlined words*/
+}
+img{
+   position: relative;  /*position picture*/
+   top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 344px;
+   border-radius: 40px;
+   
+}
+ol {
+    margin: 10px;
+}
+li{
+    color: black;
+    padding: 10px;
+}
+table, th, td{
+    border: 3px solid black;     /*style all tables*/
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+h1#midterm{
+    font-size: 5em;
+    line-height: 100px;
+    text-align: center;
+}
